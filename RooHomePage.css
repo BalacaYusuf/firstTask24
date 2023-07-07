@@ -1,0 +1,78 @@
+.container {
+   
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 60vh 40vh;
+  /* gap: 2px; */
+}
+.item1 {
+  grid-column: 1/10;
+  height: 24pc;
+  width: 31pc;
+}
+
+.item2 {
+  background-color: white;
+  grid-column: 10/13;
+}
+.item3 {
+  background-color: rgb(94, 5, 177);
+  grid-column: 1/1;
+}
+.item4 {
+  grid-column: 3/8;
+  background-color: rgb(88, 18, 153);
+}
+.item5 {
+  grid-column: 8/13;
+  background-color: blueviolet;
+}
+
+.position{
+    position: absolute;
+    left: 45pc;
+    top :0px;
+}
+.SubjectItem2{
+    font-size: 3pc;;
+}
+.we{
+    color: rgb(221, 218, 213);
+}
+.item4{
+  background-color: white;
+}
+.about{
+  position: absolute;
+
+  top :28pc; 
+  left: 27pc;
+}
+.shop{
+  position: absolute;
+  left: 45pc;
+  top :18pc;
+  letter-spacing: 17px;
+}
+.button1{
+  width: 18pc; height:4pc;
+  position: absolute;
+  top:21pc;
+  left: 38pc;
+  background-color: black;
+  display: flex;
+}
+
+.line1{
+  display: flex;
+  position: absolute;
+  top :20px;
+}
+.div2{
+  position: absolute;
+  left:14pc;
+}
+.div1{
+  position: absolute;
+  left: 2pc;
+}
